@@ -5,20 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
     "start": "next page",
-    "build": "next build",
-    "dev": "next"
+    "build": "next build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo": "^2.6.2",
+    "@shopify/koa-shopify-auth": "^3.1.19",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "express": "^4.16.4",
+    "dotenv": "^7.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.7.0",
+    "koa-session": "^5.10.1",
     "next": "^8.0.3",
     "ngrok": "^3.1.1",
     "nodemon": "^1.18.10",
